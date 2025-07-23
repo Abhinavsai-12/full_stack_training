@@ -63,11 +63,53 @@
         a:hover{
             color: rgb(5, 70, 249);
         }
+
+
+
+
+
+
+        @media screen and (max-width: 768px) {
+            body {
+                width: 100vw;
+                padding: 10px;
+            }
+        
+            h1 {
+                font-size: 22px;
+                text-align: center;
+            }
+        
+            .strong {
+                font-size: 20px;
+                display: block;
+                text-align: left;
+                margin-top: 20px;
+                margin-bottom: -10px;
+            }
+        
+            .task {
+                flex-direction: column;
+                align-items: flex-start;
+                margin-bottom: 10px;
+            }
+        
+            .task a {
+                font-size: 16px;
+                padding: 4px 0;
+                word-break: break-word;
+            }
+        
+            .repo {
+                padding-left: 0;
+            }
+        }
+
     </style>
 </head>
 <body>
     <h1>Full Stack Training</h1>
-    <br>
+    <!-- <br> -->
     
     <div class="subject">
         <strong class="strong">Java Script Learning </strong>
@@ -192,7 +234,7 @@
 
     <div class="subject">
         <div class="task">
-            <a href="https://drive.google.com/drive/folders/1m9Iyr0x9mt3VU4z8abHZEBPHl_ovM5-v?usp=sharing">Documents</a>
+            <a href="https://drive.google.com/drive/folders/1m9Iyr0x9mt3VU4z8abHZEBPHl_ovM5-v?usp=sharing" style="font-size: 25px;">All-in-One Tech Docs</a>
         </div>
         <!-- <div class="task">
             <a href="https://github.com/Abhinavsai-12">GitHub Profile</a>
